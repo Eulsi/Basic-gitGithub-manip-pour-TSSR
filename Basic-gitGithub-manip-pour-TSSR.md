@@ -35,12 +35,12 @@
 </p>
 
 <p align="center">
-Exemple d'un plan de branches et la répartition des tâches dans l'équipe
+<i>Exemple d'une découpe en branches pour du git et d'une répartition des tâches</i>
 </p>
 
 
 
-* Ce guide souhaite transmettre de bonnes pratiques piochées à gauche et à droite, il s'agit d'un avis d'utilisateur comme il pourrait y en avoir d'autres.
+* Ce guide souhaite transmettre de bonnes pratiques assez générales, il ne s'agit pas de la meilleure procédure pour chaque cas. Les remarques et corrections sont les bienvenues.
 
 <br>
 
@@ -51,6 +51,11 @@ Exemple d'un plan de branches et la répartition des tâches dans l'équipe
 ***Git*** = logiciel de gestion de versions installé localement
 
 ***Github*** = plateforme de dépot de fichiers à distance, managée par git.
+
+***Workspace*** != ***Local-repository*** != ***Remote-repository***
+>*il est important de comprendre que votre espace de travail est un espace différent du dépot local, ce dernier est censé faire mirroir avec le dépot distant*
+
+<br>
 
 Tester si votre connexion ssh a bien été établie entre votre machine locale et github :
 
