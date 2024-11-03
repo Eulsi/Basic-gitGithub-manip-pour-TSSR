@@ -39,6 +39,7 @@ Exemple de plan des branches du github et la répartition des tâches dans l'éq
 </p>
 
 
+
 * Ce guide souhaite transmettre de bonnes pratiques piochées à gauche et à droite, il s'agit d'un avis d'utilisateur comme il pourrait y en avoir d'autres.
 
 <br>
@@ -150,6 +151,8 @@ A ce moment toute modification effectuée dans votre espace de travail se fera d
 
 > *A savoir, ```git checkout -b ma-nouvelle-fonctionnalité``` réalise les deux dernières commandes en une seule*
 
+![chmntBranch](https://github.com/user-attachments/assets/adc1594e-002d-44a8-8e0e-d82a3a8f3e9a)
+
 <br>
 
 ### Lier branche locale et distante
@@ -161,6 +164,8 @@ Pourquoi la réaliser à ce moment ?
 * Elle notifie l'équipe qu'une nouvelle branche a été créée et qu'une fonctionnalité est en cours de travail.
 * Aussi tous vos nouveaux *git add . git commit git push* permettront de sécuriser votre travail en ayant une copie distante. 
 * Un coéquipier peut se permettre de visualiser/tester vos modif en l'état et communiquer avec vous s'il voit quelque chose à dire (prévenir bug ou proposer de nouvelles choses).
+
+![localDistantBranch](https://github.com/user-attachments/assets/ee9ef793-6c24-4860-9e5c-bbdb696e90e3)
 
 <br>
 
