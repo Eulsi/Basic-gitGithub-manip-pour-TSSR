@@ -2,10 +2,9 @@
 
 - [Remarques générales/précautions](#remarques-généralesprécautions)
 - [Avant de travailler dans les dépôts](#avant-de-travailler-dans-les-dépôts)
-- [Cas de figure 1](#cas-de-figure-1)
-  - [Créer un dépot git depuis un répertoire local](#cas-de-figure-1-créer-un-dépôt-git-depuis-un-répertoire-local)
-- [Cas de figure 2](#cas-de-figure-2)
-  - [Récupérer un dépot distant vers mon espace local](#cas-de-figure-2-récupérer-un-dépôt-distant-vers-mon-espace-local)
+- [Cas de figure 1 : Créer un dépot git depuis un répertoire local](#cas-de-figure-1-créer-un-dépôt-git-depuis-un-répertoire-local)
+- [Cas de figure 2 : Récupérer un dépot distant vers mon espace local](#cas-de-figure-2-récupérer-un-dépôt-distant-vers-mon-espace-local)
+  - [A local copy](#a-local-copy)
   - [Manip des branches](#manip-des-branches)
   - [Lier branche locale et distante](#lier-branche-locale-et-distante)
   - [On push now?](#on-push-now)
@@ -19,7 +18,6 @@
 - [Pourquoi utiliser VS code ? (Ou un autre IDE)](#pourquoi-utiliser-vs-code-ou-un-autre-ide)
 - [EN COURS : Quelques spécificités](#en-cours--quelques-spécificités)
 - [Ressources](#ressources)
-
 
 # Remarques générales/précautions : 
 
