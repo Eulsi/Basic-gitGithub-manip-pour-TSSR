@@ -31,11 +31,11 @@
 * Trancher sur comment les tâches se découpent et se répartissent est à la charge du SM. La logique ne veut pas forcément 1 branche = 1 personne, même si c'est plus safe ainsi au départ. Il peut être plus efficace de travailler à deux ou plus sur la même branche, il s'agit de communiquer et de comprendre les commandes git.
 
 <p align="center">
-<img src="" alt="Pictures" width="800" >
+<img src="https://github.com/Eulsi/Basic-gitGithub-manip-pour-TSSR/blob/main/imgGuide/BrancheDecoupExemple2.svg" alt="Pictures" width="400" >
 </p>
 
 <p align="center">
-Exemple de plan des branches du github et la répartition des tâches dans l'équipe
+Exemple d'un plan de branches et la répartition des tâches dans l'équipe
 </p>
 
 
@@ -84,6 +84,10 @@ Si vous avez besoin de générer une clé ssh sur votre machine, suivre ce tuto 
 :small_orange_diamond: Sur github : créer un dépot en ligne, lui donner un nom, pas besoin de readme car on a déjà initialisé le dépot en local.
 Récupérer son lien ssh.
 
+<p align="center">
+<img src="https://github.com/Eulsi/Basic-gitGithub-manip-pour-TSSR/blob/main/imgGuide/recupSSHGit.gif" alt="Pictures" width="600" >
+</p>
+
 <br>
 
 :small_orange_diamond: Reprendre le terminal du dépôt local
@@ -114,7 +118,7 @@ Par défaut, la branche active est la branche principale *main*. La bonne pratiq
 
 
 <p align="center">
-<img src="" alt="Pictures" width="800" >
+<img src="https://github.com/Eulsi/Basic-gitGithub-manip-pour-TSSR/blob/main/imgGuide/get-alocalcopy.png" alt="Pictures" width="300" >
 </p>
 
 :small_orange_diamond: Cloner le dépot distant sur son espace de travail en local :
@@ -151,7 +155,9 @@ A ce moment toute modification effectuée dans votre espace de travail se fera d
 
 > *A savoir, ```git checkout -b ma-nouvelle-fonctionnalité``` réalise les deux dernières commandes en une seule*
 
-![chmntBranch](https://github.com/user-attachments/assets/adc1594e-002d-44a8-8e0e-d82a3a8f3e9a)
+<p align="center">
+<img src="https://github.com/Eulsi/Basic-gitGithub-manip-pour-TSSR/blob/main/imgGuide/chmntBranch.png" alt="Pictures" width="600" >
+</p>
 
 <br>
 
@@ -165,7 +171,9 @@ Pourquoi la réaliser à ce moment ?
 * Aussi tous vos nouveaux *git add . git commit git push* permettront de sécuriser votre travail en ayant une copie distante. 
 * Un coéquipier peut se permettre de visualiser/tester vos modif en l'état et communiquer avec vous s'il voit quelque chose à dire (prévenir bug ou proposer de nouvelles choses).
 
-![localDistantBranch](https://github.com/user-attachments/assets/ee9ef793-6c24-4860-9e5c-bbdb696e90e3)
+<p align="center">
+<img src="https://github.com/Eulsi/Basic-gitGithub-manip-pour-TSSR/blob/main/imgGuide/localDistantBranch.png" alt="Pictures" width="700" >
+</p>
 
 <br>
 
@@ -201,7 +209,7 @@ Cette remarque prend pour exemple le *main*, mais il peut très bien s'agir d'un
 
 
 <p align="center">
-<img src="" alt="Pictures" width="800" >
+<img src="https://github.com/Eulsi/Basic-gitGithub-manip-pour-TSSR/blob/main/imgGuide/git-mess.png" alt="Pictures" width="300" >
 </p>
 
 <br>
@@ -383,7 +391,7 @@ git pull origin main
     ```
 
 <p align="center">
-<img src="" alt="Pictures" width="800" >
+<img src="https://github.com/Eulsi/Basic-gitGithub-manip-pour-TSSR/blob/main/imgGuide/git-workflow1.png" alt="Pictures" width="800" >
 </p>
 
 
@@ -441,5 +449,3 @@ git pull origin main
     
 * apprendre à manipuler les branches avec git : https://learngitbranching.js.org
     
-
-intégrer gif récup ssh lien
