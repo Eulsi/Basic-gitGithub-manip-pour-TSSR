@@ -27,7 +27,7 @@
 * Aussi, bien communiquer qui travaille sur quelle tâche. Les tâches, qui peuvent contenir une ou plusieurs fonctionnalités, sont suffisamment bien découpées et comprises par tout le monde (de manière à ce qu'on puisse les découper par branche).
 * Lorsque le *main* est entamé, qu'on travaille sur une nouvelle version, correction de bug, ou nouvelle fonctionnalité : dans votre espace de travail, retourner régulièrement sur la branche principale *git checkout main* pour faire des *git pull*. Ceci permet de toujours partir sur une base à jour et évite des conflits inutiles.
 * Avant de faire des *Pull Request*, tester le code avant (logique, mais bon).
-* Parce ce *main* se rapproche du livrable, trancher sur ce qui va dedans ou à l'inverse ce qui doit être revu/corrigé est à la charge du PO
+* Parce ce que *main* se rapproche du livrable, trancher sur ce qui va dedans ou à l'inverse ce qui doit être revu/corrigé est à la charge du PO
 * Trancher sur comment les tâches se découpent et se répartissent est à la charge du SM. La logique ne veut pas forcément 1 branche = 1 personne, même si c'est plus safe ainsi au départ. Il peut être plus efficace de travailler à deux ou plus sur la même branche, il s'agit de communiquer et de comprendre les commandes git.
 
 <p align="center">
